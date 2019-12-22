@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <main class="borde_main">
+        <header class="texto-principal">
+            <h1> Ingresa a Safary </h1>
+        </header>
+        <section> 
+            <div class="ingreso-datos">
+                <p>Ingresa tu correo</p>
+            </div>
+            <div class="ingreso-datos">
+                <p>Ingresa tu contraseña</p>
+            </div>
+            <button class="login">
+                <p>LOGIN</p>
+            </button>
+        </section>
+    <footer id="pie">
+            <p>yo ❤️ Safary</p>
+    </footer>
+    </main>
+    <script>
+    $(document).ready(function(){
+        $(".login").mouseover(function(){
+            $(".login").addClass("hover");
+        });
+        $(".login").mouseout(function(){
+            $(".login").removeClass("no-hover");
+        });
+    });
+    </script>
+    
+</body>
+
+</html>
